@@ -1,5 +1,5 @@
 <?php
-$name="emr";
+$name="emre";
 echo"merhaba benim adim $name";
 
 ?>
