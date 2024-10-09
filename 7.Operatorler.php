@@ -18,6 +18,7 @@ echo "sonuç=". $num1 ."<br>";
 ?>
 
 
+
 <!-- Karsilastirma Opertorleri -->
 <?php
 $a = 10;
@@ -81,3 +82,56 @@ echo "<br>";
 ?>
 
 
+<!-- Artirma ve Eksiltme Operatorleri -->
+<?php
+
+$num = 10;
+$num; //
+
+echo "Artırılmış sayı: ". $num. "<br>";
+?>
+
+
+
+<!-- Mantiksal Operatorler -->
+<?php
+// Mantıksal "ve" operatörü (AND, &&)
+// Her iki koşul doğruysa true döner
+$a = true;
+$b = false;
+echo "AND (&&) sonucu: ";
+var_dump($a && $b); // Çıktı: bool(false)
+
+echo "<br>AND (and) sonucu: ";
+var_dump($a and $b); // Çıktı: bool(false)
+
+// Mantıksal "veya" operatörü (OR, ||)
+// En az bir koşul doğruysa true döner
+echo "<br>OR (||) sonucu: ";
+var_dump($a || $b); // Çıktı: bool(true)
+
+echo "<br>OR (or) sonucu: ";
+var_dump($a or $b); // Çıktı: bool(true)
+
+// Mantıksal "değil" operatörü (!)
+// Koşulun tersini alır (true -> false, false -> true)
+echo "<br>NOT (!) sonucu: ";
+var_dump(!$a); // Çıktı: bool(false)
+
+// Mantıksal "XOR" operatörü (XOR)
+// Sadece bir koşul doğruysa true döner, ikisi de doğru veya ikisi de yanlışsa false
+echo "<br>XOR sonucu: ";
+var_dump($a xor $b); // Çıktı: bool(true)
+"<br>"
+?>
+
+
+
+<!-- String Operatorleri -->
+<?php
+$name="hakan ";
+$surname="mutlu ";
+
+$name.=$surname;
+echo $name."student";
+?>
