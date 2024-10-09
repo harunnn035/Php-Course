@@ -141,7 +141,7 @@ echo $name."student";
 <!-- İf Else operatörü -->
 
 <?php
-$number = 10;
+$number = -         1;
 
 // if yapısı
 if ($number > 0) {
@@ -162,4 +162,3 @@ if ($number > 20) {
     echo "Sayı 10'dan küçüktür.<br>";
 }
 ?>
-    
