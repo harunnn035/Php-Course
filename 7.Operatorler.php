@@ -135,3 +135,31 @@ $surname="mutlu ";
 $name.=$surname;
 echo $name."student";
 ?>
+
+
+
+<!-- İf Else operatörü -->
+
+<?php
+$number = 10;
+
+// if yapısı
+if ($number > 0) {
+    echo "Sayı pozitiftir.<br>"; // Eğer $number 0'dan büyükse bu çalışır
+} 
+
+// else yapısı
+else {
+    echo "Sayı negatif ya da sıfırdır.<br>"; // Eğer $number 0'dan küçük ya da eşitse bu çalışır
+}
+
+// if-else-if yapısı
+if ($number > 20) {
+    echo "Sayı 20'den büyüktür.<br>";
+} elseif ($number == 10) {
+    echo "Sayı 10'dur.<br>"; // Eğer $number 10'a eşitse bu çalışır
+} else {
+    echo "Sayı 10'dan küçüktür.<br>";
+}
+?>
+    
