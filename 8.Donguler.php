@@ -23,7 +23,7 @@ while ($a <= 10) {
         echo "<br>";
         $b++;
     }
-    
+
     $b = 1;
     $a++;
 }
@@ -31,3 +31,17 @@ while ($a <= 10) {
 
 
 //Do-While
+$a=5;
+echo " While Döngüsü";	
+while ($a < 6) {
+    echo "Number less than 6 $a <br/>";
+    $a++;
+}
+echo "Do-While Döngüsü";
+do{
+    echo "Number less than 6 $a <br/>";
+    $a++;
+
+}while ($a< 10);
+
+echo "Number greater than 6 $a" ;
