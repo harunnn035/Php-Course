@@ -161,4 +161,42 @@ if ($number > 20) {
 } else {
     echo "Sayı 10'dan küçüktür.<br>";
 }
+
+
+//Kısa İf Else Kullanımı
+$sayii=10;
+
+echo $sayii== 10 ? "sayi 10": "sayi 10 degil";      
+
+// if($sayii==10){
+//     echo  "sayi 10";
+// }else{
+//     echo "sayi 10 degil";
+// }
+
+
+
+$gun = 1    ;
+
+switch ($gun) {
+    case 1:
+        echo "Pazartesi";
+        break;
+    case 2:
+        echo "Salı";
+        break;
+    case 3:
+        echo "Çarşamba";
+        break;
+    default:
+        echo "Geçersiz gün";
+}
+
+
+
+
 ?>
+
+
+
+
