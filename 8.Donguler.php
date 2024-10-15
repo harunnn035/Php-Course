@@ -19,7 +19,7 @@ while ($a <= 10) {
 
     while ($b <= 10) {
         // echo "$a x $b = " . $a * $b . "";
-        echo $a . ' '.  $b . " ";
+        echo $a . ' ' .  $b . " ";
         echo "<br>";
         $b++;
     }
@@ -31,17 +31,23 @@ while ($a <= 10) {
 
 
 //Do-While
-$a=5;
-echo " While Döngüsü";	
+$a = 7;
+echo " While Döngüsü <br/>";
 while ($a < 6) {
-    echo "Number less than 6 $a <br/>";
+    echo "sayı 6'dan küçük $a <br/>";
     $a++;
 }
-echo "Do-While Döngüsü";
+echo "sayı 6'dan büyük num=$a <br/> ";
+
+
+
+
+$a=7;
+echo "Do While Döngüsü <br/>";
 do{
-    echo "Number less than 6 $a <br/>";
+    echo "sayı 6'dan küçük $a <br/>";
     $a++;
+}while ($a<6);
+echo "sayı 6'dan büyük num=$a";
 
-}while ($a< 10);
-
-echo "Number greater than 6 $a" ;
+?>
