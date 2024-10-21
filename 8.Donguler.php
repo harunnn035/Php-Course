@@ -53,7 +53,7 @@ echo "sayı 6'dan büyük sayi=$a";
 //For
 
 echo "<br/> For Döngüsü <br/>";
-for($a=0; $a<=1000; $a++){
+for($a=0; $a<=10; $a++){
     echo "sayı=$a <br/>";
 }
 
